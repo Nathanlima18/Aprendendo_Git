@@ -1,1 +1,10 @@
 primeiro_arquivo.txt
+Primeiro de tudo, o GIT é um sistema de controle de versões voltado ao desenvolvimeto de software mas podendo ser usado para o registro de edições de qualquer tipo de arquivo.
+O GIT permite que todos os desenvolvedores de um sistema trabalhem simultaneamente sem problemas, porém não permite que um faça alterações sobre o arquivo do outro.
+Também mantem o historico de todas as edições feitas no arquivo.
+Como a maioria das operações no GIT são locais, problemas no tráfego ou latencial são quase inexistentes e todas as operações são efetuadar instantaneamente.
+O checksum (chave de verificação de integridade) é a forma que o GIT assegura aos usuários a proteção de suas informações ou a corrupção de arquivos.
+O GIT é composto por três estados principais onde seus arquivos pode estar, demoniados: Committed, Modificado (modified)  e Preparado (Staged).
+Seus principais códigos ao criar um arquivo são: 
+Git clone url - para clonar um repositório
+cd /seu/diretorio/que/deseja/criargit init - para começar a monitorar um projeto existente  com GIT
