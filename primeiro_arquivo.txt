@@ -4,7 +4,15 @@ O GIT permite que todos os desenvolvedores de um sistema trabalhem simultaneamen
 Também mantem o historico de todas as edições feitas no arquivo.
 Como a maioria das operações no GIT são locais, problemas no tráfego ou latencial são quase inexistentes e todas as operações são efetuadar instantaneamente.
 O checksum (chave de verificação de integridade) é a forma que o GIT assegura aos usuários a proteção de suas informações ou a corrupção de arquivos.
-O GIT é composto por três estados principais onde seus arquivos pode estar, demoniados: Committed, Modificado (modified)  e Preparado (Staged).
-Seus principais códigos ao criar um arquivo são: 
-Git clone url - para clonar um repositório
-cd /seu/diretorio/que/deseja/criargit init - para começar a monitorar um projeto existente  com GIT
+O GIT é composto por três estados principais onde seus arquivos pode estar, denomiados: Committed, Modificado (modified)  e Preparado (Staged).
+Commited significa que os arquivos estão seguros no banco de dados do usuário; Modificado significa que os arquivos foram alterados, porém ainda não foi feito o commit no banco de dados; Preparado signifca que a versão atual de um arquivo modificado foi marcado para fazer parte do próximo commit.
+Os principais comandos ao utilizar o git são: 
+git config --global user.name "Seu nome" e git config --global user.email "Seu email" para identificar o seu nome e email.
+Caso queira testas as configurações use o commando: git config --list
+Para começar a monitorar um projeto é usado o comando: git init para a configuração inicial de um novo repositório. A execução desse comando cria um novo subdiretório
+.git no diretório de trabalho atual.
+Para adicionar um arquivo específico ao repositório é usado o comando: git add <Nome do Arquivo> e para adicionar todos os arquivos: gitt add .
+Para fazer um commit inicial: git commit -m “Nome do commit”
+Para ver os status do seus arquivos: Git status
+Para observar as mudanças feitas em um arquivo monitorado e modificado: git diff
+Para verificar o histórico dos commits efetuados em um repositório, usa-se: Git log - Esse comando mostra os commits efetuados de cima para baixo, sendo o superior o mais recente, nele também podemos ver o nome, email, data e mesagem commit.
