@@ -16,3 +16,5 @@ Para fazer um commit inicial: git commit -m “Nome do commit”
 Para ver os status do seus arquivos: Git status
 Para observar as mudanças feitas em um arquivo monitorado e modificado: git diff
 Para verificar o histórico dos commits efetuados em um repositório, usa-se: Git log - Esse comando mostra os commits efetuados de cima para baixo, sendo o superior o mais recente, nele também podemos ver o nome, email, data e mesagem commit.
+Para o git ignorar um arquivo: touch .gitignore. Este arquivo é naturalmente oculto e para ocultar outros arquivos, basta digitaliza-lo dentro.
+Para criar tags, usamos: Git tag -a v1.0
